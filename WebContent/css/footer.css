@@ -1,0 +1,154 @@
+@charset "UTF-8";
+.context-dark, .bg-gray-dark, .bg-primary {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-classic a, .footer-classic a:focus, .footer-classic a:active {
+    color: #ffffff;
+}
+.nav-list li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.nav-list li a:hover:before {
+    margin-left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 23px;
+    font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+}
+.social-container .col {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.nav-list li a:before {
+    content: "\f14f";
+    font: 400 21px/1 "Material Design Icons";
+    color: #4d6de6;
+    display: inline-block;
+    vertical-align: baseline;
+    margin-left: -28px;
+    margin-right: 7px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .22s ease;
+}
+
+
+
+.social:hover {
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+ }
+ .social {
+     -webkit-transform: scale(0.8);
+     /* Browser Variations: */
+     
+     -moz-transform: scale(0.8);
+     -o-transform: scale(0.8);
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+     -o-transition-duration: 0.5s;
+ }
+  #social-fb:hover {
+     color: #ffffff;
+ }
+ #social-tw:hover {
+     color: #ffffff;
+ }
+ #social-gp:hover {
+     color: #ffffff;
+ }
+ #social-em:hover {
+     color: #ffffff;
+ }
+ 
+ 
+ 
+.withbg{
+	height: 80%;
+}
+.icons {
+	position: fixed;
+	top: 70%;
+	right:0%;
+	width: 220px;
+	display: flex;
+	flex-direction: column;
+}
+.icons a
+{
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 3px;
+	font-size: 15px;
+	font-family: 'Oswald',sans-serif;
+	margin: 2px;
+	text-align: left;
+	border-radius: 50px 0px 0px 50px;
+	transform : translate(170px, 0px);
+	transition: all 1s;
+}
+.icons a:hover {
+	transform : translate(0px, 0px);
+}
+.icons a i {
+	margin-right: 15px;
+	background-color: rgba(255,255,255,0.9);
+	height: 40px;
+	width: 40px;
+	color: black;
+	text-align:center;
+	line-height: 40px;
+	border-radius: 50%;
+	transition: all 0.5s;
+}
+.icons a:hover i{
+	transform : rotate(360deg);
+}
+
+.facebook{
+	background-color: rgba(44,128,211,0.6);
+	color: white;
+}
+.youtube{
+	background-color: rgba(250,9,16,0.6);
+	color: white;
+}
+.instagram {
+	background-color:  rgba(225,48,108,0.6);
+	color: white;
+}
+.naver {
+	background-color:  rgba(3,200,90,0.6);
+	color: white;
+}
+
+.kakaotalk {
+	background-color: rgba(250,237,125,0.6);
+	color: white;
+}
+
+.footerhr {
+	background-color:white;
+	width:100%; 
+	height:1px;
+	 border:0;
+	 margin-top: -10px;
+}

@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+.top-img {
+	width: 100%;
+	height: 400px;
+}
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+	text-align: center;
+}
+.custom-navbar {
+	position: -webkit-sticky;
+    position: sticky;
+    top: -1px;
+	width: 100%;
+	height: auto;
+	padding: 0px 10px 0px;
+	z-index: 9;
+	background-color: #FFF;
+}
+.custom-navbar li{
+	text-decoration: none;
+	list-style: none;
+	padding: 5px 0px;
+	display:inline-block;
+	list-style-type: none;
+	letter-spacing: 1.2px;
+}
+.custom-navbar li a{
+	color: #000;
+	font-size: 17px;
+	padding: 10px 80px;
+	border-radius: 4px 4px;
+}
+.custom-navbar li a:hover{
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+	background-color: rgba(255,255,255,0.6);
+	-webkit-box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.75);
+}
+.custom-navbar li a:focus, .custom-navbar li a.focus, .custom-navbar li a.active, .custom-navbar li a:active{
+	color: #E4E4E4;
+	text-decoration: none;
+	cursor: pointer;
+	background-color: rgba(0,0,0,0.8);
+	-webkit-box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.75);
+}
+.custom-navbar li img{
+	width: 30px;
+	height: 30px;
+}
+
+.titletip {
+  position: relative;
+  display: inline-block;
+}
+
+.titletip .textTop {
+  visibility: hidden;
+  min-width: 120px;
+  max-width: 150px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.titletip .textTop::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.titletip .textBottom {
+  visibility: hidden;
+  min-width: 120px;
+  max-width: 150px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 5px;
+  position: absolute;
+  z-index: 1;
+  top: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.titletip .textBottom::after {
+  content: " ";
+  position: absolute;
+  bottom: 100%;  /* At the top of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}
+
+.titletip:hover .textTop, .titletip:hover .textBottom {
+  visibility: visible;
+  opacity: 0.85;
+}

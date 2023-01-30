@@ -1,0 +1,160 @@
+@charset "UTF-8";
+
+
+.container {
+	width: 100%;
+	
+}
+
+.carousel-item {
+  height: 75vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.fix-im {
+    position: relative;
+    bottom:11rem;
+}
+@media screen and (max-width:768px){
+.flex-100 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.fix-im {bottom: 0rem;}
+}
+.ugali {
+    background: black;
+    padding: 6px;
+}
+/* .header{
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	background-color: white;
+} */
+.logo{
+	text-align: center;
+}
+table {
+	margin: 0 auto;
+	padding: 30px;
+}
+
+  ul.list-inline li {
+    display: inline-block;
+    width: 18%;
+    margin: 0 auto;
+    text-align: center;
+     }
+	ul.list-inline li a{
+    color:#333;
+	text-decoration:none;
+	text-transform:uppercase;
+        }
+        .wrapper{
+	width:800px;background:#fff; margin:0 auto;  border-radius:2px;  box-shadow: 1px 2px 25px 1px #0000001f;
+}
+ ul.list-inline li {
+    display: inline-block;
+    width: 18%;
+    margin: 0 auto;
+    text-align: center;
+     }
+	ul.list-inline li a{
+   color: #333;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: cursive;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+        }
+  
+  
+* {
+		margin: 0;
+		padding: 0;
+	}
+/* ul li태그에 리스트 스타일을 없앰 */
+	ul li{
+		list-style: none;
+	}
+/* a태그에 텍스트 밑줄을 없애고 색상을 #333 */
+	a {
+		text-decoration: none;
+		color:#333;
+	}
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    content: "";
+    background: no-repeat center center;
+    background-size: 100% 100%;
+}
+
+
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+/* 글자크기를 16px 맑은 고딕 굵게하고 width넓이 700, 높이 50만큼 배경색은 #ccc, 글자색은 검정색, 라인높이50px
+menu박스 가운데정렬, 글자가운데 정렬 */
+	#menu {
+		font:bold 16px "malgun gothic";
+		width:100%;
+		height:50px;
+		background: rgba(0,0,0,0);
+		color:black;
+		line-height: 50px; 
+		margin:0 auto;
+		text-align: center;
+		text-decoration: none;
+	}
+
+/* menu태그 자식의 ul의 자식 li를 왼쪽정렬과 넓이 140설정 */
+	#menu > ul > li {
+		float:left;
+		width:140px;
+		position:relative;
+		color:black;
+	}
+#menu > ul > li > ul {
+		width:130px;
+		display:none;
+		position: absolute;
+		font-size:14px;
+		background: rgba(0,0,0,0.7);/*헤더배경*/
+		
+	}
+	#menu > ul > li:hover > ul {
+		display:block;
+	}
+	#menu > ul > li > ul > li:hover { 
+		background: rgba(255,255,255); 
+		transition: ease 1s;
+		} /* 드랍다운 배경색*/
+	#menu > ul > li > ul > li > a{
+		color:#ffffff;
+	}
+	#menu > ul > li > ul > li > a:hover{
+		color:#000000;
+	}
+	#menu > ul > li > a{
+		color : #000000;/*헤더메인글자색*/
+		}
+	#menu > ul > li > a:hover {/*헤더메인 글자색 변경*/
+		color : #a0a0a0;
+		transition: all 0.1s;
+		}
+

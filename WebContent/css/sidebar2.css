@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+
+.withbg{
+	height: 80%;
+}
+.icons {
+	position: fixed;
+	top: 70%;
+	right:0%;
+	width: 220px;
+	display: flex;
+	flex-direction: column;
+}
+.icons a
+{
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 3px;
+	font-size: 15px;
+	font-family: 'Oswald',sans-serif;
+	margin: 2px;
+	text-align: left;
+	border-radius: 50px 0px 0px 50px;
+	transform : translate(170px, 0px);
+	transition: all 1s;
+}
+.icons a:hover {
+	transform : translate(0px, 0px);
+}
+.icons a i {
+	margin-right: 15px;
+	background-color: rgba(255,255,255,0.9);
+	height: 40px;
+	width: 40px;
+	color: black;
+	text-align:center;
+	line-height: 40px;
+	border-radius: 50%;
+	transition: all 0.5s;
+}
+.icons a:hover i{
+	transform : rotate(360deg);
+}
+
+.facebook{
+	background-color: rgba(44,128,211,0.6);
+	color: white;
+}
+.youtube{
+	background-color: rgba(250,9,16,0.6);
+	color: white;
+}
+.instagram {
+	background-color:  rgba(225,48,108,0.6);
+	color: white;
+}
+.naver {
+	background-color:  rgba(3,200,90,0.6);
+	color: white;
+}
+
+.kakaotalk {
+	background-color: rgba(250,237,125,0.6);
+	color: white;
+}

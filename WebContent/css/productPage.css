@@ -1,0 +1,439 @@
+@charset "UTF-8";
+
+.top-img {
+	width: 100%;
+	height: 400px;
+}
+
+.senter-img {
+	width: 1020px;
+	height: 340px;
+	margin-top: 100px;
+	
+}
+.s-div{
+	position: relative;
+    padding: 90px 0;
+    margin-bottom: 20px;
+}
+.ss-dl{
+	    width: 1020px;
+    padding: 20px 0;
+    border-top: 1px solid #e5e5e5;
+    position: relative;
+    margin: 0 auto;
+    letter-spacing: -1px;
+}
+.ss-dl dd {
+    width: 685px;
+}
+.ss-dl dd {
+    text-align: justify;
+    max-width: 685px;
+}
+.ss-dl dd {
+    float: right;
+    max-width: 685px;
+    font-size: 15px;
+    color: #211f20;
+    line-height: 27px;
+    text-align: left;
+}
+.ss-dl dt {
+    letter-spacing: -1px;
+}
+.ss-dl dt {
+    font-size: 26px;
+    letter-spacing: 1px;
+    color: #211f20;
+    font-family: 'Avenir Pro 35 Light';
+    float: left;
+}
+.fo_noto {
+    font-family: 'NotoSans-Light', sans-serif !important;
+}
+
+#listForm{
+		max-width:100%;
+		max-height:100%;
+		margin: 0px auto;
+		margin-bottom: 20px;
+	}
+	
+	h2{
+		text-align:center;
+	}
+	
+	.productListTBL{
+		margin: 0px auto;
+		max-width:550px;
+	}
+	
+	.productListTD {
+		padding: 10px;
+	}
+
+	.div_empty{
+		background-color:red;
+		max-width: 100%;
+		max-height: 100%;
+		text-align: center;
+	}
+	
+	#productImage{
+		max-width: 200px;
+		max-height: 200px;
+		border: none;
+	}
+	
+	.orderbyDIV {
+		margin-left: 70%;
+	}
+	
+	.orderbyBTN {
+		background-color: #337ab7;
+		border: none;
+		color: white;
+		font-size: 14px;
+	 	font-weight: normal;
+	 	 font-family: 'Glyphicons Halflings';
+	 	 border-radius: 3px;
+	}
+	
+	
+		
+	
+	.pageDIV {
+		display: flex;
+		
+	}
+	
+	.pageUL {
+		list-style-type: none;
+		margin: 0px auto;
+	}
+	
+	.pageUL_LI {
+		float: left; 
+		margin-right: 20px;
+		line-height: 40px;
+	
+	}
+	
+	.carbox {/*에텔랑 제품 모션효과*/
+		display: block; 
+	    margin-bottom: 5px;
+	    line-height: 1.4;
+	    padding-bottom : 10px;
+	    background-color: #fff;
+	    border-radius: 3px;
+	    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12); 
+	    transition: box-shadow .25s;
+	}
+	.carbox:hover {
+	  box-shadow: 0 8px 17px 0 rgba(2,82,168,0.5),0 6px 20px 0 rgba(2,82,168,0.3);
+	}
+	
+	.carbox-ph{ /*ph포뮬라 제품 모션효과*/
+		display: block; 
+	    margin-bottom: 5px;
+	    line-height: 1.4;
+	    padding-bottom : 10px;
+	    background-color: #fff;
+	    border-radius: 3px;
+	    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12); 
+	    transition: box-shadow .25s; 
+	}
+	.carbox-ph:hover {
+	  box-shadow: 0 8px 17px 0 rgba(0,0,0,0.5),0 6px 20px 0 rgba(0,0,0,0.3);
+	}
+	
+	.carbox-de{ /*디엘더아로마 제품 모션효과*/
+		display: block; 
+	    margin-bottom: 5px;
+	    line-height: 1.4;
+	    padding-bottom : 10px;
+	    background-color: #fff;
+	    border-radius: 3px;
+	    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12); 
+	    transition: box-shadow .25s; 
+	}
+	.carbox-de:hover {
+	  box-shadow: 0 8px 17px 0 rgba(153,112,0,0.5),0 6px 20px 0 rgba(153,112,0,0.3);
+	}
+	
+	.carbox-2B{ /*2B 바이오뷰티 제품 모션효과*/
+		display: block; 
+	    margin-bottom: 5px;
+	    line-height: 1.4;
+	    padding-bottom : 10px;
+	    background-color: #fff;
+	    border-radius: 3px;
+	    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12); 
+	    transition: box-shadow .25s; 
+	}
+	.carbox-2B:hover {
+	  box-shadow: 0 8px 17px 0 rgba(2,111,52,0.5),0 6px 20px 0 rgba(2,111,52,0.3);
+	}
+	
+	.carbox-ts{ /*ts아로마 제품 모션효과*/
+		display: block; 
+	    margin-bottom: 5px;
+	    line-height: 1.4;
+	    padding-bottom : 10px;
+	    background-color: #fff;
+	    border-radius: 3px;
+	    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12); 
+	    transition: box-shadow .25s; 
+	}
+	.carbox-bd:hover {
+	  box-shadow: 0 8px 17px 0 rgba(110,68,60,0.5),0 6px 20px 0 rgba(110,68,60,0.3);
+	}
+		.carbox-ts{ /*ts아로마 제품 모션효과*/
+		display: block; 
+	    margin-bottom: 5px;
+	    line-height: 1.4;
+	    padding-bottom : 10px;
+	    background-color: #fff;
+	    border-radius: 3px;
+	    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12); 
+	    transition: box-shadow .25s; 
+	}
+	.carbox-bd:hover {
+	  box-shadow: 0 8px 17px 0 rgba(148,148,148,0.5),0 6px 20px 0 rgba(110,68,60,0.3);
+	}
+		.carbox-other{ /*기타 제품 모션효과*/
+		display: block; 
+	    margin-bottom: 5px;
+	    line-height: 1.4;
+	    padding-bottom : 10px;
+	    background-color: #fff;
+	    border-radius: 3px;
+	    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12); 
+	    transition: box-shadow .25s; 
+	}
+	.carbox-other:hover {
+	  box-shadow: 0 8px 17px 0 rgba(255,113,113,0.5),0 6px 20px 0 rgba(110,68,60,0.3);
+	}
+	
+
+	
+	@media (max-width: 992px) {
+		.productListTD {
+			padding: 20px;
+		}
+		
+		.orderbyDIV {
+			margin-left: 60%;
+		}
+		
+		#productImage{
+			max-width: 180px;
+			max-height: 180px;
+			border: none;
+		}
+	}
+	
+		
+	@media (max-width: 767px) {
+		.productListTD {
+			padding: 3px;
+		}
+		
+		.orderbyDIV {
+			margin-left: 60%;
+			margin-right: 0px;
+		}
+		
+		#productImage{
+			max-width: 150px;
+			max-height: 150px;
+			border: none;
+		}
+		
+		#listForm{
+			max-width:100%;
+			max-height:100%;
+			margin: 0px auto;
+			margin-bottom: 20px;
+		}
+		
+		.productListTBL{
+			margin: 0px auto;
+			max-width: 100%;
+		}
+	}
+	
+	.hover-2 .hover-overlay {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1));
+}
+
+.hover-2-title {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  z-index: 99;
+  transition: all 0.3s;
+}
+
+.hover-2-description {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  opacity: 0;
+  left: 0;
+  text-align: center;
+  z-index: 99;
+  transition: all 0.3s;
+}
+
+.hover-2:hover .hover-2-title {
+  transform: translateY(-1.5rem);
+}
+
+.hover-2:hover .hover-2-description {
+  bottom: 0.5rem;
+  opacity: 1;
+}
+
+.hover-2:hover .hover-overlay {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1));
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+	text-align: center;
+}
+.custom-navbar {
+	position: -webkit-sticky;
+    position: sticky;
+    top: -1px;
+	width: 100%;
+	height: auto;
+	padding: 0px 10px 0px;
+	z-index: 9;
+	background-color: #f9f9f9;
+}
+.custom-navbar li{
+	text-decoration: none;
+	list-style: none;
+	padding: 5px 0px;
+	display:inline-block;
+	list-style-type: none;
+	letter-spacing: 1.2px;
+}
+.custom-navbar li a{
+	color: #000;
+	font-size: 17px;
+	padding: 10px 10px;
+	border-radius: 4px 4px;
+}
+.custom-navbar li a:hover{
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+	background-color: rgba(255,255,255,0.6);
+	-webkit-box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.75);
+}
+/*중간 바 전체 전환*/
+.custom-navbar li a:focus, .custom-navbar li a.focus, .custom-navbar li a.active, .custom-navbar li a:active{
+	color: #E4E4E4;
+	text-decoration: none;
+	cursor: pointer;
+	background-color: rgba(0,0,0,0.8);
+	-webkit-box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.75);
+}
+.custom-navbar li img{
+	width: 30px;
+	height: 30px;
+}
+
+.titletip {
+  position: relative;
+  display: inline-block;
+}
+strong {
+	font-size: 14px;
+	margin-left: 5px;
+}
+
+.titletip .textTop {
+  visibility: hidden;
+  min-width: 120px;
+  max-width: 150px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.titletip .textTop::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.titletip .textBottom {
+  visibility: hidden;
+  min-width: 120px;
+  max-width: 150px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 5px;
+  position: absolute;
+  z-index: 1;
+  top: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.titletip .textBottom::after {
+  content: " ";
+  position: absolute;
+  bottom: 100%;  /* At the top of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}
+
+.titletip:hover .textTop, .titletip:hover .textBottom {
+  visibility: visible;
+  opacity: 0.85;
+}
+
+
+
+
+	

@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+
+body{
+    margin:0;
+    padding:0;
+    font-size:100%;
+    line-height: 1.6;
+    font-family: 'Aboreto', cursive;
+  }
+  #wrapper{
+    position: relative;
+    width:100%;
+    min-height:15vw;
+    overflow: hidden;
+  }
+  
+  .layer{
+    position: absolute;
+    width:100vw;
+    min-height: 15vw;
+    overflow: hidden;
+  }
+  
+  .layer .content-wrap{
+    position: absolute;
+    width:100vw;
+    min-height: 15vw;
+  }
+  
+  .layer .content-body{
+    width:25%;
+    position:absolute;
+    top:50%;
+    text-align: center;
+    transform:translateY(-50%);
+    color:#fff;
+  }
+  
+  .layer h1{
+    font-size:4em;
+  }
+  
+  .bottom{
+   /* background:#ffffff;  */
+     background-image : url('../images/사이트 중앙 다올 코스메틱 이미지2.jpg');
+    background-size:cover;
+    background-position :center; 
+    z-index:1;
+  }
+  
+  .bottom .content-body{
+    margin: auto;
+    width: 50%;
+  }
+  
+  .bottom h1{
+    width: 800px;
+    padding-left: 50px;
+    font-family: 'Aboreto', cursive;
+    color:#fcfffe;
+  }
+  
+  .top{
+  /*  background : rgb(0, 0, 0);  */
+ background-image : url('../images/유경 사이트 이미지.jpg');
+    background-size:contain;
+    background-position :center;  
+    z-index:2;
+    width:50vw;
+  }
+
+  .top h1 {
+    font-family: 'Aboreto', cursive;
+     width: 600px;
+    padding-left: 10px;
+  }
+  
+  .top .content-body{
+    margin: auto;
+    width: 20%;
+  }
+  
+  .handle{
+    position: absolute;
+    height: 100%;
+    display: block;
+    background-color: rgba(231,94,27);
+    border-left : 5px solid #ffffff;
+    width:13px;
+    top:0;
+    left: 12%;
+    z-index:3;
+  }
+
+  
+  .skewed .handle{
+    top:50%;
+    transform:rotate(30deg) translateY(-50%);
+    height: 200%;
+    transform-origin:top;
+  }
+  
+  .skewed .top{
+    transform: skew(-30deg);
+    margin-left:-1000px;
+    width: calc(50vw + 400px);
+  }
+  
+  .skewed .top .content-wrap{
+    transform: skew(30deg);
+    margin-left:1000px;
+  }
