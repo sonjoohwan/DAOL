@@ -70,12 +70,7 @@ public class ProductFrontController extends HttpServlet {
 
 		System.out.println("[Product]command : " + command);// 어떤 요청인지 확인하기 위해 출력
 
-		
-		if(command.equals("/home.usr")) {//'index.jsp에서 userHome.jsp뷰페이지 보기' 요청이면			
-			request.setAttribute("showPage", null);
-			forward = new ActionForward("main.jsp", false);	//반드시 디스패치 방식으로 포워딩
-		}
-		else if (command.equals("/product_ph.daol")) { // '상품 목록보기' 요청하면
+		 if (command.equals("/product_ph.daol")) { // '상품 목록보기' 요청하면
 			action = new Product_phListAction();
 
 			try {
